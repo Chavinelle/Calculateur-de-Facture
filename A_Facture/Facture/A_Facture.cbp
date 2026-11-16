@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="A_Facture" />
+		<Option makefile_is_custom="1" />
+		<Option execution_dir="D:/Projet C_IMeN/A_Facture" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/A_Facture" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/A_Facture" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile">
+			<Option compilerVar="CC" />
+			<Option compile="1" />
+			<Option link="1" />
+		</Unit>
+		<Unit filename="facture.h" />
+		<Unit filename="ft_is_digit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ft_is_number.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ft_is_percentage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ft_net_commercial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ft_pourcentage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ft_total_ht.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ft_total_ttc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

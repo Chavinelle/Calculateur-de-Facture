@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1793909063 source:d:\projet c_imen\a_facture\ft_is_digit.c
+	"facture.h"
+
+1793914182 d:\projet c_imen\a_facture\facture.h
+
+1793914216 source:d:\projet c_imen\a_facture\ft_is_number.c
+	"facture.h"
+
+1793914259 source:d:\projet c_imen\a_facture\main.c
+	<unistd.h>
+	<stdlib.h>
+	"facture.h"
+
